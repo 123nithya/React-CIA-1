@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.card {
+    position: relative;
+    margin: 150px auto;
+    height: 250px;
+    width: 450px;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: grey;
+}
+
+label {
+    color: black;
+    padding-left: 4px;
+    font-size: 25px;
+}
+
+error {
+    font-size: 10px;
+    border-color: #ff6774;
+}
+
+input {
+    width: 450px;
+    height: 40px;
+    background-color: #edf2f5;
+    font-size: 24px;
+    margin-bottom: 5px;
+    border: 0;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.28);
+}
